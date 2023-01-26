@@ -10,13 +10,14 @@
 body {
     width: 100%;
     display: flex;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #111;
+    color: #ddd;
 }
 
 aside {
     width: 30%;
     height: 100vh;
-    /* border: 5px solid blue; */
-
     background-image: url(../img/rush.jpg);
 }
 
@@ -28,7 +29,6 @@ div.logo-section {
     font-family: "Righteous", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: wheat;
-    /* white-space: nowrap; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,35 @@ div.logo-section {
 main {
     width: 70%;
     height: 100vh;
-    /* border: 5px solid red; */
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form {
+    /* border: 3px solid blue; */
+    width: 100%;
+}
+
+.title {
+    margin: 0 50px;
+}
+
+.inputs {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 20px 0;
+    background-color: #333;
+    box-shadow: 2px 2px 2px #555;
+    padding: 10px 50px;
+}
+
+.submit {
+    /* border: 3px solid green; */
+    width: 100%;
+    margin: 20px 50px;
 }
 
 @media screen and (max-width: 1000px) {
